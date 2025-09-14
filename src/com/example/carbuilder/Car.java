@@ -24,8 +24,8 @@ public final class Car {
     }
 
     public static class CarBuilder {
-        private final String brand;   // required
-        private final String model;   // required
+        private final String brand;   
+        private final String model;   
         private int year = 2024;
         private String color = "Black";
         private String engineType = "Petrol";
